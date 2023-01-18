@@ -1,0 +1,107 @@
+/* Home.css */
+
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 2px 4px;
+    font-size: 8px;
+    font-weight: bold;
+    background-color: #54369a; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #54369a;
+  }
+  .input-zone {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .input-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    width: 300px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .toolbar {
+    display: flex;
+  }
+  
+  .toolbar button {
+    margin-right: 10px;
+  }
+  
+  .input-zone {
+    margin: 20px 0;
+  }
+  
+  .input-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    width: 300px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .input-field {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .card-content {
+  padding: 10px;
+  }
+  
+  .modify-btn {
+  padding: 5px 10px;
+  background-color: #cdd7c6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+    
+  
