@@ -27,9 +27,6 @@ function Modify_Demande_Rembourssement(props) {
     } catch (error) {
       console.error(error);
     }
-    setName('');
-    setDay('');
-    setDeteal('');
   }
 
   console.error(params);
